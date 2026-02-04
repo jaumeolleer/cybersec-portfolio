@@ -1,0 +1,20 @@
+site_name: Cybersecurity Portfolio
+site_description: Offensive Security Notes & Practical Labs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Fundamentals:
+      - Networking: fundamentals/networking.md
+      - Linux Basics: fundamentals/linux.md
+  - Techniques:
+      - Enumeration: techniques/enumeration.md
+      - Linux Privilege Escalation: techniques/privesc-linux.md
+  - Hack The Box:
+      - Write-ups: hackthebox/index.md
